@@ -1,0 +1,137 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url("images/ag.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.header{
+    margin-top: 10%;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    
+}
+.header > h4{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.inp{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.input-wrapper{
+    width: 300px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 1.5em 1.87rem;
+    border-radius: 0.5em;
+    gap: 10px;
+   box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+input{
+    border: none;
+   
+    width: 150px;
+    height: 30px;
+}
+button{
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #7d56f3;
+    cursor: pointer;
+}
+
+.out{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.output-wrapper{
+
+    width: 300px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.year{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background:linear-gradient(black 30%,silver 100% );
+}
+.timer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: silver;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+.footer{
+
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: silver;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
